@@ -18,14 +18,8 @@ allprojects {
     }
 }
 
+// Eta add kora hoyeche plugin resolve korar jonno
 plugins {
     id("com.android.library") version "8.1.0" apply false
     id("org.jetbrains.kotlin.android") version "1.9.20" apply false
-    id("com.github.recloudstream") version "-SNAPSHOT" apply false
-}
-
-subprojects {
-    apply(plugin = "com.android.library")
-    apply(plugin = "org.jetbrains.kotlin.android")
-    apply(plugin = "com.github.recloudstream")
 }
